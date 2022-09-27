@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  background-color: #add1a4;
+}
+
+.wrapper {
+  width: 600px;
+  height: 700px;
+  background: #222222;
+  border: 10px solid #828282;
+  border-radius: 50px;
+  margin: auto;
+}
+.wrapper .time {
+  font-size: 30px;
+  color: #FFFFFF;
+  padding-left: 85%;
+  padding-top: 5%;
+}
+.wrapper .main-pic {
+  background-image: url(./assets/Mask\ group.png);
+  width: 472px;
+  height: 472px;
+  margin: auto;
+}
+.wrapper .dynamic-year {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  color: #FFFFFF;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5%;
+}
+.wrapper button {
+  width: 230px;
+  height: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
